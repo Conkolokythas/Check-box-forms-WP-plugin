@@ -1,0 +1,86 @@
+.h-padding {
+    padding: 0 1em 0 1em;
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
+
+#cbForm {
+    color:blue;
+}
+
+#cbForm input {
+    width: 100%;
+}
+
+#q input[type=text] {
+    border: 0px;
+}
+
+.remove {
+    text-decoration-line: underline;
+    color: brown;
+}
+
+.form-block {
+     width: 100%;
+}
+
+#add {
+    margin-top: 1em;
+}
+
+#the-tb table {
+    padding: 3px;
+    width: 100%;
+    border-spacing: 0px;
+}
+
+#the-tb tr:nth-child(even) {
+    background: #f6f5f5
+}
+
+#the-tb td {
+    padding: 1em;
+}
+
+#the-tb thead {
+    font-weight: bold;
+    border-bottom: 1px solid #50575e;
+}
+
+#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__window {
+  position: relative;
+  background-color: white;
+  padding: 4em 2em;
+}
+
+.modal__close {
+  position: absolute;
+  right: 0;
+}
+
+#modal:not(:target) {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.prevent-select {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none; 
+  cursor: not-allowed;
+}

@@ -1,0 +1,116 @@
+.ccs-traceWrap{
+  width: 100%;
+  border-radius:18px;
+  padding:0.5em;
+
+  --ccs-angle: 0deg;
+  background:
+    conic-gradient(
+      from var(--ccs-angle),
+      #3b82f6,
+      #245dbb,
+      #80c1ff,
+      #06b6d4,
+      #3b82f6
+    );
+}
+
+.ccs-traceCard{
+  border-radius:17px;
+  padding:1.8em;
+  background:#fff;
+  /*border:1px solid rgba(0,0,0,.08);*/
+  box-shadow: #2c80aa26 0px -50px 36px -28px inset;
+}
+
+.traceCard-title {
+  padding: 5px;
+  margin-bottom: 1.5em;
+  text-align: center;
+	border-bottom: 1px solid #eaeaea;
+}
+
+.traceCard-checklist {
+  font-size: 16px;
+}
+
+.c-item {
+  margin-top: 18px;
+}
+
+.c-input{
+  width: 18px;
+  height: 18px;
+}
+
+.c-value {
+  margin-left: 10px
+}
+
+#c-popup{
+    display: none;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+
+.popup-window {
+  padding: 1.5em;
+  border-radius:18px;
+  border: 1px solid  #2db300;
+  text-align: center;
+  background-color: #e6ffe67d;
+}
+
+.popup-window h3 {
+  margin-top: 0px;
+  color: #001a00;
+}
+
+.popup-btn {
+  padding-bottom: 1em;
+}
+
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #ff675b;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-5:hover {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  text-decoration: none;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
